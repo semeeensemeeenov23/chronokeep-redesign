@@ -27,7 +27,7 @@
 
 ## 🚀 Демо
 
-[Посмотреть демо](https://ваш-username.github.io/chronokeep-redesign/)
+[Посмотреть демо](https://semeeensemeeenov23.github.io/chronokeep-redesign/)
 
 ## 📱 Функционал
 
