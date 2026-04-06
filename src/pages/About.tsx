@@ -4,19 +4,19 @@ const team = [
   { 
     name: 'Алексей Иванов', 
     role: 'Генеральный директор', 
-    image: '/images/team/ceo.jpg',
+    image: 'images/team/ceo.jpg',
     bio: 'Более 15 лет в IT-индустрии, эксперт по цифровой трансформации'
   },
   { 
     name: 'Мария Петрова', 
     role: 'Технический директор', 
-    image: '/images/team/cto.jpg',
+    image: 'images/team/cto.jpg',
     bio: 'Специалист по масштабируемым архитектурам и облачным решениям'
   },
   { 
     name: 'Дмитрий Смирнов', 
     role: 'Ведущий разработчик', 
-    image: '/images/team/lead-dev.jpg',
+    image: 'images/team/lead-dev.jpg',
     bio: 'Full-stack разработчик с опытом в FinTech и E-commerce'
   }
 ];
@@ -58,7 +58,7 @@ export const About = () => {
               viewport={{ once: true }}
             >
               <img 
-                src="/images/hero-bg.jpg" 
+                src="images/hero-bg.jpg" 
                 alt="Наша миссия" 
                 style={{ borderRadius: '1rem', width: '100%' }}
                 onError={(e) => {

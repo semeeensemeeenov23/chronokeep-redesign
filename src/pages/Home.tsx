@@ -50,21 +50,21 @@ const articles = [
   {
     title: 'Будущее цифровой трансформации',
     excerpt: 'Как новые технологии меняют бизнес',
-    image: '/images/blog/digital-transformation.jpg',
+    image: 'images/blog/digital-transformation.jpg',
     date: '15 марта 2024',
     slug: 'digital-transformation'
   },
   {
     title: 'Оптимизация разработки',
     excerpt: 'Лучшие практики для команд',
-    image: '/images/blog/development-optimization.jpg',
+    image: 'images/blog/development-optimization.jpg',
     date: '10 марта 2024',
     slug: 'development-optimization'
   },
   {
     title: 'Масштабируемые приложения',
     excerpt: 'Принципы создания надежных систем',
-    image: '/images/blog/scalable-apps.jpg',
+    image: 'images/blog/scalable-apps.jpg',
     date: '5 марта 2024',
     slug: 'scalable-apps'
   }

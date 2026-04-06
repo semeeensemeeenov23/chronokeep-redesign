@@ -4,32 +4,32 @@ const services = [
   { 
     title: 'Веб-разработка', 
     desc: 'Современные адаптивные сайты на передовых технологиях', 
-    image: '/images/services/web-dev.jpg'
+    image: 'images/services/web-dev.jpg'
   },
   { 
     title: 'Мобильные приложения', 
     desc: 'Кроссплатформенные приложения для iOS и Android', 
-    image: '/images/services/mobile-app.jpg'
+    image: 'images/services/mobile-app.jpg'
   },
   { 
     title: 'Облачные решения', 
     desc: 'Масштабируемая облачная инфраструктура', 
-    image: '/images/services/cloud.jpg'
+    image: 'images/services/cloud.jpg'
   },
   { 
     title: 'UI/UX дизайн', 
     desc: 'Пользовательский интерфейс, ориентированный на людей', 
-    image: '/images/services/ui-ux-design.jpg'
+    image: 'images/services/ui-ux-design.jpg'
   },
   { 
     title: 'Разработка API', 
     desc: 'Надежные и безопасные API для интеграции', 
-    image: '/images/services/api-development.jpg'
+    image: 'images/services/api-development.jpg'
   },
   { 
     title: 'IT-консалтинг', 
     desc: 'Экспертное сопровождение цифровой трансформации', 
-    image: '/images/services/it-consulting.jpg'
+    image: 'images/services/it-consulting.jpg'
   }
 ];
 

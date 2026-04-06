@@ -7,7 +7,7 @@ const articles = [
     id: 1,
     title: 'Будущее цифровой трансформации',
     excerpt: 'Исследуем, как новые технологии меняют индустрии и создают новые возможности для бизнеса.',
-    image: '/images/blog/digital-transformation.jpg',
+    image: `images/blog/digital-transformation.jpg`, 
     date: '15 марта 2024',
     readTime: '8 мин',
     author: 'Алексей Иванов',
@@ -18,7 +18,7 @@ const articles = [
     id: 2,
     title: 'Оптимизация процесса разработки',
     excerpt: 'Лучшие практики и инструменты для повышения продуктивности разработки.',
-    image: '/images/blog/development-optimization.jpg',
+    image: `images/blog/development-optimization.jpg`, 
     date: '10 марта 2024',
     readTime: '6 мин',
     author: 'Мария Петрова',
@@ -29,7 +29,7 @@ const articles = [
     id: 3,
     title: 'Создание масштабируемых приложений',
     excerpt: 'Принципы создания приложений, которые растут вместе с вашей аудиторией.',
-    image: '/images/blog/scalable-apps.jpg',
+    image: `images/blog/scalable-apps.jpg`, 
     date: '5 марта 2024',
     readTime: '10 мин',
     author: 'Дмитрий Смирнов',
@@ -119,7 +119,7 @@ export const Blog = () => {
               >
                 <div style={{ position: 'relative', overflow: 'hidden' }}>
                   <img 
-                    src={article.image} 
+                    src={`${import.meta.env.BASE_URL}${article.image}`} // ИСПРАВЛЕНО
                     alt={article.title} 
                     style={{ 
                       width: '100%', 

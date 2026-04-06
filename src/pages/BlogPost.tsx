@@ -15,7 +15,7 @@ const articles = [
       <h3>Как начать трансформацию</h3>
       <p>Первый шаг — это аудит текущих процессов и определение точек роста. Затем необходимо сформировать стратегию и постепенно внедрять изменения, начиная с наиболее критичных областей.</p>
     `,
-    image: '/images/blog/digital-transformation.jpg',
+    image: 'images/blog/digital-transformation.jpg', 
     date: '15 марта 2024',
     readTime: '8 мин',
     author: 'Алексей Иванов',
@@ -34,7 +34,7 @@ const articles = [
       <h3>CI/CD пайплайны</h3>
       <p>Непрерывная интеграция и доставка — это основа современной разработки. Автоматизация тестирования и деплоя сокращает время выхода релизов и уменьшает количество ошибок.</p>
     `,
-    image: '/images/blog/development-optimization.jpg',
+    image: 'images/blog/development-optimization.jpg', 
     date: '10 марта 2024',
     readTime: '6 мин',
     author: 'Мария Петрова',
@@ -53,7 +53,7 @@ const articles = [
       <h3>Базы данных</h3>
       <p>Выбор правильной базы данных критически важен для масштабируемости. Реляционные, NoSQL, NewSQL — каждый вариант имеет свои преимущества для разных сценариев использования.</p>
     `,
-    image: '/images/blog/scalable-apps.jpg',
+    image: 'images/blog/scalable-apps.jpg', 
     date: '5 марта 2024',
     readTime: '10 мин',
     author: 'Дмитрий Смирнов',
