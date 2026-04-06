@@ -5,10 +5,13 @@ interface FloatingGifProps {
   isVideoPlaying?: boolean;
 }
 
+// Автоматически подставляет /chronokeep-redesign/ на GitHub Pages и пустую строку локально
+const basePath = import.meta.env.BASE_URL;
+
 const gifs = [
-  { src: "/images/floating/robot-float.gif", alt: "Робот парит" },
-  { src: "/images/floating/robot-glow.gif", alt: "Робот светится" },
-  { src: "/images/floating/robot-wave.gif", alt: "Робот машет" }
+  { src: `${basePath}images/floating/robot-float.gif`, alt: "Робот парит" },
+  { src: `${basePath}images/floating/robot-glow.gif`, alt: "Робот светится" },
+  { src: `${basePath}images/floating/robot-wave.gif`, alt: "Робот машет" }
 ];
 
 export default function FloatingGif({ isVideoPlaying = false }: FloatingGifProps) {
